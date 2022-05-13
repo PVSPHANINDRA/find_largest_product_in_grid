@@ -30,7 +30,7 @@ main.py has two functions:
 
 - Name:   get_total_combinations
 
-- Parameters: grid(int[][]) and contiguous integer(integer)
+- Parameters: grid(int[][]) and contiguous_integers(int)
 
 - Returns:
 
@@ -41,7 +41,7 @@ main.py has two functions:
 
 - Name:   find_greatest_product_of_contiguous_integers
 
-- Parameters: grid(int[][]) and contiguous integer(integer)
+- Parameters: grid(int[][]) and contiguous_integers(int)
 
 - Returns:
 
@@ -54,6 +54,27 @@ TechConsultingTestGrid.csv is the grid to test on. Above functions are called at
 
 The Results are:
 
-    Total number of combinations:288
-    Largest_product_set: [95, 71, 99]
-    Largest product: 667755
+For valid contiguous_integer value:
+
+` Total number of combinations:288`
+
+`Largest_product_set: [95, 71, 99]`
+
+`Largest product: 667755`
+
+For invalid contiguous_integer value:
+
+`contiguous integers is exceeding both columns and rows`
+
+`No possible combination`
+
+`Total number of combinations: 0`
+
+`contiguous integers is exceeding both columns and rows`
+
+`No possible combination`
+
+`Largest product: -1`
+
+
+
